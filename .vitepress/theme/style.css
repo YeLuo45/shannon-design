@@ -1,0 +1,52 @@
+:root {
+  --vp-c-bg: #0f0f23;
+  --vp-c-bg-alt: #1a1a2e;
+  --vp-c-bg-elv: #16162a;
+  --vp-c-text-1: #e0e0e0;
+  --vp-c-text-2: #aaa;
+  --vp-c-brand-1: #00d4ff;
+  --vp-c-brand-2: #00b8e6;
+  --vp-c-divider: #2a2a4a;
+  --vp-nav-bg-color: #1a1a2e;
+  --vp-sidebar-bg-color: #1a1a2e;
+  --vp-code-block-bg: #0d0d1a;
+}
+
+.VPHome {
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+}
+
+.VPHero .name {
+  background: linear-gradient(120deg, #667eea 0%, #764ba2 50%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPFeature {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+.VPFeature:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(0, 212, 255, 0.3) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.1) !important;
+}
+
+.VPNav {
+  background: rgba(15, 12, 41, 0.9) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.VPButton.medium.brand {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+.VPButton.medium.brand:hover {
+  background: linear-gradient(135deg, #7c8ffa 0%, #8a5db5 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.35);
+}
